@@ -54,7 +54,7 @@ Nr = 1024;                  %for length of time OR # of range cells
 
 % Timestamp for running the displacement scenario for every sample on each
 % chirp
-t = linspace(0,Nd*t_chirp,Nr*Nd); %total time for samples
+t = linspace(0,Nd*Tchirp,Nr*Nd); %total time for samples
 
 %Creating the vectors for Tx, Rx and Mix based on the total samples input.
 Tx = zeros(1, length(t)); %transmitted signal
